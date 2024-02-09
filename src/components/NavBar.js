@@ -7,7 +7,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <header 
-    classname='w-full px-32 py-8 font-large flex item-center justify-between'
+    className='w-full px-32 py-8 font-large flex item-center justify-between'
     >
         <nav>
             <Link href="/">Home</Link>
