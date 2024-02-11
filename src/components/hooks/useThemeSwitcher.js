@@ -18,17 +18,17 @@ const useThemeSwitcher = () => {
                 if(check==="dark"){
                     document.documentElement.classList.add("dark")
                 }else{
-                    document.documentElement.classList.add("dark")
+                    document.documentElement.classList.remove("dark")
                 }
 
             }else{
                 let check = mediaQuery.matches ? "dark" : "light";
                 setMode(check);
-
+                window.localStorage.setItem("theme",check);
                 if(check==="dark"){
                     document.documentElement.classList.add("dark")
                 }else{
-                    document.documentElement.classList.add("dark")
+                    document.documentElement.classList.remove("dark")
                 }
             }
         }
