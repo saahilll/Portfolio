@@ -75,8 +75,8 @@ const[mode, setMode] = useThemeSwitcher();
         >
         {
         mode === "dark" ?
-          <SunIcon className={"fill-dark"} />
-          : <MoonIcon className={"fill-dark"} />
+         <MoonIcon className={"fill-light"} />        
+        :<SunIcon className={"fill-dark"} />
         }
       </button>
     </nav>
