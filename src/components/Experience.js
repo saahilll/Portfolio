@@ -13,11 +13,14 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         whileInView={{y:0}}
         transition={{duration:0.5, type:"spring"}}
         >
-            <h3 className='capitalize font-bold text-2xl'>{position}&nbsp; <a href={companyLink}
-            target="_blank"
-            className='text-primary capitalize'
-            >@{company}</a></h3>
-            <span className='capitalize font-medium text-dark/75'>
+            <h3 className='capitalize font-bold text-2xl'>{position}&nbsp; 
+            < a href={companyLink}
+              target="_blank"
+              className='text-primary dark:text-primaryDark capitalize'
+            > @{company}
+            </a>
+            </h3>
+            <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
                 {time} | {address}
             </span>
             <p className='font-medium w-full'>
@@ -44,29 +47,37 @@ const Experience = () => {
         <div ref={ref} className='w-[75%] mx-auto relative'>
             <motion.div
             style={{scaleY: scrollYProgress}} 
-            className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top' />
+            className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light' />
             
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
-                position="Intern" company="The Special Character"
+                position="Intern" 
+                company="The Special Character"
                 companyLink="https://thespecialcharacter.com"
-                time="Summer 2023" address="Ahemdabad, Gujarat"
+                time="Summer 2023" 
+                address="Ahemdabad, Gujarat"
                 work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
                 share short-form video content, including designing and implementing a new user interface and developing 
                 the backend infrastructure to support the feature."
                 />
+
                 <Details 
-                position="Intern" company="The Special Character"
+                position="Intern" 
+                company="The Special Character"
                 companyLink="https://thespecialcharacter.com"
-                time="Summer 2023" address="Ahemdabad, Gujarat"
+                time="Summer 2023" 
+                address="Ahemdabad, Gujarat"
                 work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
                 share short-form video content, including designing and implementing a new user interface and developing 
                 the backend infrastructure to support the feature."
                 />
+
                  <Details 
-                position="Intern" company="The Special Character"
+                position="Intern" 
+                company="The Special Character"
                 companyLink="https://thespecialcharacter.com"
-                time="Summer 2023" address="Ahemdabad, Gujarat"
+                time="Summer 2023" 
+                address="Ahemdabad, Gujarat"
                 work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
                 share short-form video content, including designing and implementing a new user interface and developing 
                 the backend infrastructure to support the feature."
