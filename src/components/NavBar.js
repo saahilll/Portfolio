@@ -71,7 +71,7 @@ const NavBar = () => {
   return (
     <header
       className="w-full px-32 py-8 font-medium flex item-center justify-between
-      dark:text-light relative
+      dark:text-light relative sm:px-12 md:px-28
       "
     >
       <button
@@ -105,7 +105,7 @@ const NavBar = () => {
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
             href="https://www.motadata.com/"
-            taget={"_blank"}
+            target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-7 mr-3"
@@ -114,7 +114,7 @@ const NavBar = () => {
           </motion.a>
           <motion.a
             href="https://www.motadata.com/"
-            taget={"_blank"}
+            target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-7 mx-3"
@@ -123,7 +123,7 @@ const NavBar = () => {
           </motion.a>
           <motion.a
             href="https://www.motadata.com/"
-            taget={"_blank"}
+            target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-7 mx-3"
