@@ -56,36 +56,42 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Intern"
+            position="Product Analyst Intern"
             company="The Special Character"
-            companyLink="https://thespecialcharacter.com"
-            time="Summer 2023"
+            companyLink="https://www.motadata.com/"
+            time="January, 2024 - Present"
             address="Ahemdabad, Gujarat"
-            work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-                share short-form video content, including designing and implementing a new user interface and developing 
-                the backend infrastructure to support the feature."
+            work="Drive innovation by proposing and conceptualizing new features for Motadata ServiceOps, elevating the ITSM product's functionality.
+
+            Collaborate closely with development teams, ensuring efficient communication for the seamless integration of proposed features.
+            
+            Iterate and refine feature proposals through active engagement with cross-functional teams, aligning with market trends and user needs."
           />
 
           <Details
-            position="Intern"
+            position="Web Development Intern"
             company="The Special Character"
             companyLink="https://www.thespecialcharacter.com/"
-            time="Summer 2023"
+            time="June, 2023 - July, 2023"
             address="Ahemdabad, Gujarat"
-            work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-                share short-form video content, including designing and implementing a new user interface and developing 
-                the backend infrastructure to support the feature."
+            work="Developed a pizza ordering and delivery system using React.js, leveraging its component-based architecture for efficient and maintainable code.
+
+            Employed Tailwind CSS to style the application, ensuring a visually appealing and responsive user interface that enhances the overall user experience.
+            
+            Implemented dynamic features, allowing customers to customize orders seamlessly through an intuitive interface, resulting in an efficient and user-friendly pizza ordering and delivery platform."
           />
 
           <Details
             position="Summer Intern"
             company="TatvaSoft"
             companyLink="https://www.tatvasoft.com/"
-            time="Summer 2023"
+            time="May, 2023 - June, 2023"
             address="Ahemdabad, Gujarat"
-            work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-                share short-form video content, including designing and implementing a new user interface and developing 
-                the backend infrastructure to support the feature."
+            work="Led the development of an impressive online book store website using React.js, demonstrating the ability to take ownership of a project from conception to delivery.
+
+            Worked seamlessly with a cross-functional team, actively participating in meetings and ensuring effective communication to meet project milestones.
+            
+            Implemented responsive design principles and conducted user feedback sessions, enhancing the online book store website's user experience and ensuring accessibility across various devices."
           />
         </ul>
       </div>

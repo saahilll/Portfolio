@@ -104,7 +104,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://www.motadata.com/"
+            href="https://twitter.com/SaahilPandya"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -176,7 +176,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://www.motadata.com/"
+              href="https://twitter.com/SaahilPandya"
               taget={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
