@@ -12,7 +12,7 @@ function about() {
   return (
     <>
       <Head>
-        <title>VM & SP | About Page</title>
+        <title>About Page</title>
         <meta name="description" content="any description" />
       </Head>
 
@@ -31,7 +31,7 @@ function about() {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-light" />
               <Image
                 src={profilePic}
-                alt="VM&SP"
+                alt="Image"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -45,23 +45,31 @@ function about() {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with
-                a passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hello, I&apos;m Saahil Pandya, a budding data scientist eager to
+                explore the vast world of data and analytics. With a fresh
+                perspective and a hunger for knowledge, I&apos;m excited to
+                embark on this journey in the field of data science.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                Having recently entered this dynamic realm, I am committed to
+                unraveling the complexities of data and transforming raw
+                information into meaningful insights. My curiosity and
+                dedication drive me to constantly seek new challenges and
+                innovative solutions.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I firmly believe that data science is not just about numbers and
+                algorithms; it&apos;s a powerful tool for problem-solving and
+                decision-making. My goal is to leverage my skills in statistical
+                analysis, machine learning, and data visualization to derive
+                valuable conclusions and make informed decisions.
+              </p>
+              <p className="my-4 font-medium">
+                As I navigate through the world of data, I am enthusiastic about
+                contributing to projects that have a real-world impact. I am
+                confident that my passion for understanding data patterns and my
+                commitment to continuous learning will make a positive
+                difference in any data-driven endeavor.
               </p>
             </div>
           </div>

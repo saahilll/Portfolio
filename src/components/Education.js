@@ -50,16 +50,14 @@ const Education = () => {
           <Details
             type="Bachelor Of Engineering In Computer Science"
             time="2020-2024"
-            place="LDRP Institute Of Technology (LDRP-IT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+            place="LDRP Institute Of Technology (LDRP-ITR)"
+            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, Machine Learning, Natural Langauge Processing, Neural Networks and Artificial Intelligence."
           />
           <Details
-            type="Online Coursework"
-            time="2020-2024"
-            place="Coursera And EdX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-                Learning Engineering."
+            type="Python For Data Science"
+            time="2023"
+            place="National Programme on Technology Enhanced Learning (NPTEL)"
+            info="I honed my data science skills through the program, mastering Python's applications in statistical analysis, machine learning, and data manipulation for informed decision-making."
           />
         </ul>
       </div>
