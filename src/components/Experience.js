@@ -69,7 +69,7 @@ const Experience = () => {
           <Details
             position="Intern"
             company="The Special Character"
-            companyLink="https://thespecialcharacter.com"
+            companyLink="https://www.thespecialcharacter.com/"
             time="Summer 2023"
             address="Ahemdabad, Gujarat"
             work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
@@ -78,9 +78,9 @@ const Experience = () => {
           />
 
           <Details
-            position="Intern"
-            company="The Special Character"
-            companyLink="https://thespecialcharacter.com"
+            position="Summer Intern"
+            company="TatvaSoft"
+            companyLink="https://www.tatvasoft.com/"
             time="Summer 2023"
             address="Ahemdabad, Gujarat"
             work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 

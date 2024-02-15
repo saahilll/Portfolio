@@ -113,7 +113,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://www.motadata.com/"
+            href="https://www.github.com/saahilll/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -122,7 +122,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.motadata.com/"
+            href="https://www.linkedin.com/in/saahill/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -185,7 +185,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://www.motadata.com/"
+              href="https://www.github.com/saahilll/"
               taget={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -194,7 +194,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://www.motadata.com/"
+              href="https://www.linkedin.com/in/saahill/"
               taget={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
