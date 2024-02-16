@@ -142,7 +142,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>VM & SP | projects Page</title>
+        <title>Projects</title>
         <meta name="description" content="any description" />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
