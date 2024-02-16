@@ -57,7 +57,7 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="Product Analyst Intern"
-            company="The Special Character"
+            company="Motadata"
             companyLink="https://www.motadata.com/"
             time="January, 2024 - Present"
             address="Ahemdabad, Gujarat"
