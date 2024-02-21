@@ -1,1 +1,2 @@
-# Portfolio
+# Portfolio Website
+This is the README file for the portfolio website of Saahil Pandya, built using Next.js and styled with Tailwind CSS. The website is hosted on Vercel at https://saahilpandya.vercel.app/. The portfolio showcases information about Saahil, including a home section, an about me section, and a projects section. Additionally, the website offers a dark mode for enhanced user experience.
